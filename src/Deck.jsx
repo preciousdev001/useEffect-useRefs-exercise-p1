@@ -33,7 +33,7 @@ function Deck() {
         {
           id: card.code,
           name: card.suit + " " + card.value,
-          iamge: card.image,
+          image: card.image,
         },
       ]);
     } catch (err) {
